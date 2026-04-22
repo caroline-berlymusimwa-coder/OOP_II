@@ -1,10 +1,8 @@
 package com.test_vehicle;
 
-public interface Automobile
-{
-    public abstract void accelerate();
-    public abstract void brake();
-    public abstract void stop();
-    public abstract void gas();
+interface Automobile {
+    int MAX_SPEED = 200;
 
+    void startEngine();
+    void stopEngine();
 }
